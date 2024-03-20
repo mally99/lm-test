@@ -3,7 +3,6 @@ import { TextWithBoldRangesType } from '@/types/TextWithBoldRangeType';
 export function TextWithBoldRanges(props: TextWithBoldRangesType) {
   const { text, boldRanges } = props;
   let currentRangeIndex = 0;
-
   return (
     <>
       {text.split('').map((char, index) => {
